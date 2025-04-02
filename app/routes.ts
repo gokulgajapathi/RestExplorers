@@ -7,7 +7,7 @@ import {
 
 export default [
   index("routes/home.tsx"),
-  route("about", "routes/about.tsx"),
+  route("about", "./routes/about.tsx"),
 
   ...prefix("countries", [
     index("routes/countries.tsx"),
